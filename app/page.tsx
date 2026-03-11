@@ -99,7 +99,7 @@ export default function Home() {
             onChange={e => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="새로운 할 일을 입력하세요"
-            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder:text-gray-400"
           />
           <button
             onClick={addTodo}
